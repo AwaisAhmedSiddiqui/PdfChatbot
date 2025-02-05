@@ -19,42 +19,29 @@ FAISS
 Installation
 Follow these steps to set up the project locally:
 
-1. Clone the Repository
-Clone the repository to your local machine.
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/pdf-chatbot.git
-cd pdf-chatbot
-2. Create and Activate a Virtual Environment
-It's recommended to use a virtual environment to keep your dependencies isolated.
 
-bash
-Copy
-Edit
-# Create a virtual environment
+# 1-Create a virtual environment
 python -m venv venv
 
 # Activate the virtual environment
 # On Windows:
 venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-3. Install Dependencies
+
+**2. Install Dependencies**
 Install the required packages using pip.
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-4. Set Up Environment Variables
+**3. Set Up Environment Variables**
 Create a .env file in the project root and add your OpenAI API key and HuggingFaceHub API token.
 
 bash
 Copy
 Edit
-# .env file
+**#4.env file**
 
 OPENAI_API_KEY=your-openai-api-key
 HuggingFaceHub_API_TOKEN=your-huggingface-api-token
